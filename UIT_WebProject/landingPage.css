@@ -1,0 +1,447 @@
+body
+{
+    height: 1800px;
+  box-sizing: border-box;
+  }
+
+.card {
+    border-top: solid 5px black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: 20px 50px;
+    text-align: center;
+    font-family: arial;
+    height: 510px;
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: solid 3px black;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    
+    /*cursor make the arrow as hand and shows that there is link below cursor as it changes here when moved
+    to the cart*/
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    background-color: white;
+    color: black;
+  }
+  .card-img-things
+{
+    margin: 20px 0;
+  
+}
+.card-left-right-margin-on-maxwidth-992px
+{
+    margin-top:0px;
+}
+
+.adjusting-card-three-img
+{
+    height:200px;
+    
+}
+section
+{
+  margin-bottom: 80px;
+}
+
+#divider
+{
+  width: 80%;
+   margin: 0px auto;
+   color: black;
+   border: 1px solid black;
+   margin-top:35px;
+  border-width: 5px;
+}
+/* .btnpara{
+color:red !important ;
+background-color: #000 !important;
+} */
+button
+{
+  background-color: #000 !important;
+  color: white !important;
+}
+
+button > a
+{
+  text-decoration: none !important ;
+  color: white ;
+  background-color: #000 ;
+  
+  
+}
+button > a:hover
+{
+   color:red !important ;
+  background-color: #000;
+  font-weight: bold;
+}
+button > a  :focus
+{
+  color: #000 !important;
+  
+}
+
+.footer > div
+{
+  height: 320px;
+  width:100%;
+  background-color: none;
+  box-sizing: border-box;
+  
+}
+.nomargin
+{
+  margin:0px !important; 
+}
+
+/* .FooterEndDivider
+{
+  width: 100%;
+  height: 40px;
+  background-color:#000;
+}
+
+ */
+
+
+.footerList > a {
+  color: white;
+  list-style: none;
+  text-decoration: none;
+  /* margin-left: 15px; */
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 20px;
+  
+  
+}
+
+.footerList
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+}
+
+
+.footerList2
+{
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  text-align: center;
+  color: white;
+ text-align: justify;
+ 
+}
+
+.content-section {
+  margin: 1em;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1.5em;
+}
+.section-header {
+  font-family: "Metal Mania";
+  font-weight: normal;
+  color: #333;
+  text-align: center;
+  font-size: 2.5em;
+}
+
+.cart-header {
+  font-weight: bold;
+  font-size: 1.25em;
+  color: #333;
+}
+
+.cart-column {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid black;
+  margin-right: 1.5em;
+  
+  padding-bottom: 10px;
+  margin-top: 10px;
+}
+
+.cart-row {
+  display: flex;
+  
+}
+
+.cart-item {
+  width: 45%;
+}
+
+.cart-price {
+  margin: 0 96px 0 100px;
+  font-size: 1.2em;
+  color: #333;
+}
+
+.cart-quantity {
+  width: 45%;
+  
+}
+
+.cart-item-title {
+  color: #333;
+  margin-left: 20px;
+  font-size: 1.2em;
+}
+
+.cart-item-image {
+  width: 125px;
+  height: auto;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.cart-quantity-input {
+  height: 34px;
+  width: 50px;
+  border-radius: 5px;
+  border: 1px solid #56CCF2;
+  background-color: #eee;
+  color: #333;
+  padding: 0;
+  text-align: center;
+  font-size: 1.2em;
+  margin-right: 25px;
+}
+
+.cart-row:last-child {
+  border-bottom: 1px solid black;
+}
+
+.cart-row:last-child .cart-column {
+  border: none;
+}
+
+.cart-total {
+  text-align: end;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.cart-total-title {
+  font-weight: bold;
+  font-size: 1.5em;
+  color: black;
+  /* margin-right: 20px; */
+}
+
+.cart-total-price {
+  /* color: #333; */
+  font-size: 1.1em;
+}
+
+.btn-purchase{
+  display: block;
+  margin: 40px auto 80px auto;
+  font-size: 1.75em;
+}
+.shop-item-button
+{
+  color:white;
+
+}
+.shop-item-title
+{
+  color:#000;
+}
+.shop-item-price{
+  color:#000;
+  font-weight: bold;
+}
+.shop-item-image{
+  width: 100%;
+}
+
+.btn-danger {
+  color: white;
+  background-color: #EB5757;
+  border: none;
+  border-radius: .3em;
+  font-weight: bold;
+}
+
+.btn-danger:hover {
+  background-color: #CC4C4C;
+}
+
+ 
+
+
+
+ 
+@media all and (max-width:620px )
+ {
+/*.footer{
+  height: 600px;
+}  */
+.allTopMarginOnsmallDevice
+{
+    margin-top:60px;
+    
+}
+.card-left-right-margin-on-maxwidth-992px
+{
+    margin-top:0px;
+}
+.content-section {
+  margin: 1em;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 500px;
+  /* margin: 0;*/
+  padding: 0 1.5em; 
+}
+.section-header {
+  margin:  0 auto;
+  
+  font-family: "Metal Mania";
+  font-weight: normal;
+  color: #333;
+  text-align: center;
+  font-size: 2.5em;
+  text-align: center;
+}
+.cart-item {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 0;
+}
+
+.cart-row {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  
+}
+  .cart-column {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    border-bottom: 1px solid black;
+    /* margin:  30px 30px  ; */
+   
+    
+  }
+  
+  .cart-header {
+    font-weight: bold;
+    /* font-size: 1.25em; */
+    color: #333;
+  } 
+  
+  .cart-price {
+    margin:0 !important;
+    flex-direction: column;
+    color: #333;
+  }
+  
+  .cart-quantity {
+    width: 15%;
+    
+  }
+  
+  .cart-item-title {
+    color: #333;
+    /* margin-left: 20px; */
+    
+  }
+  
+  .cart-item-image {
+    width: 75px;
+    height: auto;
+    border-radius: 10px;
+    /* margin-right: 20px; */
+  }
+  
+  .cart-quantity-input {
+    height: 34px;
+    width: 50px;
+    border-radius: 5px;
+    border: 1px solid red;
+    background-color: #000;
+    color: white;
+    padding: 0;
+    text-align: center;
+    margin-bottom: 5px;
+    /* font-size: 1.2em; */
+    /* margin-right: 25px; */
+   
+  }
+  
+  .cart-row:last-child {
+    border-bottom: 1px solid black;
+  }
+  
+  .cart-row:last-child .cart-column {
+    border: none;
+  }
+  
+  .cart-total {
+    text-align: end;
+    margin-top: 10px;
+    /* margin-right: 10px; */
+  }
+  
+  .cart-total-title {
+    font-weight: bold;
+    font-size: 1.5em;
+    /* color: black; */
+    /* margin-right: 20px; */
+  }
+  
+  .cart-total-price {
+    /* color: #333; */
+    font-size: 1.1em;
+  }
+  
+  .btn-purchase{
+    display: block;
+    margin: 40px auto 80px auto;
+    font-size: 1.75em;
+    background-color: #000 !important;
+  }
+
+}
+
+@media all and (min-width:992px)
+{
+.card-left-right-margin-on-maxwidth
+{
+    margin-top:60px;
+    /* border-spacing: 105px; */
+    
+}
+}
+

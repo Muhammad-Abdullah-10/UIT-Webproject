@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="navbar.css">
+  <link rel="stylesheet" href="checkout.css">
+  <!-- <link rel="stylesheet" href="exprementingnavbarhamonAboutprj.css"> -->
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <!-- Popper JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- <script src="alljs.js" async></script> -->
+  <script src="store.js" ></script>
+  <script src="alljs.js"></script>
+  <title>Document</title>
+  <!-- <style>
+    .producting{
+      display: none;
+    } -->
+   
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-sm  navbar-colors">
+    <a class="navbar-brand navbar-colors " href="#">Navbar</a>
+    <!-- the above is for logo -->
+    <!-- data toggle is used on how the button will react -->
+    <!-- data target = target any id we gave to it access that thing on functionality -->
+    <!-- aria control are for disable user  -->
+    <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse"
+      data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon custom-toggler "></span>
+    </button>
+
+   
+
+    
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item ">
+          <a class="nav-link navbar-colors" href="landingPage.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link navbar-colors" href="policies.html">Policies</a> </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle navbar-colors" href="#" id="navbarDropdown" role="button"
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Sign Up
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item navbar-colors" href="singup.html">Sign In</a>
+            <a class="dropdown-item navbar-colors" href="#">Another action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item navbar-colors" href="#">Something else here</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link  navbar-colors" href="Checkout.html" tabindex="-1" >CheckOut</a>
+        </li>
+      </ul>
+      <form class="form-inline my-1 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn search-btn-color bg-white  mt-2 mb-1 my-sm-0 mx-auto " type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+
+
+  <div class="row m-5">
+    <div class=" col-sm-12 col-md-8 col-xl-9 col-lg-9">
+      <div class="container bg-white divBorder centerforipad ">
+        <form action="">
+
+          <div class="row  ">
+            <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+              <h3>Billing Address</h3>
+              <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+              <input type="text" id="fname" name="firstname" autocomplete="off">
+              <label for="email"><i class="fa fa-envelope"></i> Email</label>
+              <input type="text" id="email" name="email" placeholder="abc@gmail.com" autocomplete="off">
+              <label for="address"><i class="fa fa-address-card-o"></i> Address</label>
+              <input type="text" id="address" name="address">
+              <label for="city"><i class="fa fa-institution"></i> City</label>
+              <input type="text" id="city" name="city">
+
+              <div class="row">
+                <div class="col-50">
+                  <label for="state">State</label>
+                  <input type="text" id="state" name="state">
+                </div>
+                <div class="col-50">
+                  <label for="zip">Zip</label>
+                  <input type="text" id="zip" name="zip">
+                </div>
+              </div>
+            </div>
+
+            <div class="col-50">
+              <h3>Payment</h3>
+              <label for="fname">Accepted Cards</label>
+              <div class="icon-container">
+                <i class="fa fa-cc-visa     " style="color:navy;"></i>
+                <i class="fa fa-cc-amex" style="color:blue;"></i>
+                <i class="fa fa-cc-mastercard" style="color:red;"></i>
+                <i class="fa fa-cc-discover" style="color:orange;"></i>
+              </div>
+              <label for="cardname">Name on Card</label>
+              <input type="text" id="cardname" name="cardname" placeholder="Place Your cardname">
+              <label for="cardnumber">CreditCard number</label>
+              <input type="text" id="cardnumber" name="cardnumber" placeholder="xxxx-xxxx-xxxx-xxxx">
+              <label for="expmonth">Exp Month</label>
+              <input type="text" id="expmonth" name="expmonth" placeholder="Jan">
+
+              <div class="row">
+                <div class="col-50">
+                  <label for="cc">Card Code</label>
+                  <input type="text" id="cc" name="cardcode" placeholder="xxxx">
+                </div>
+                <div class="col-50">
+                  <label for="expyear">Exp Year</label>
+                  <input type="text" id="expyear" name="expyear" placeholder="xxxx">
+                </div>
+                
+
+              </div>
+            </div>
+
+          </div>
+          <label>
+            <input type="checkbox" checked="checked"> Shipping address same as billing
+          </label>
+          <br>
+          <!-- <input type="submit" value="Confirm" class="btn1 btn-outline-dark bg-white"> -->
+          <button type="submit" value="Confirm" class="btn btn-dark mx-auto btn1">Confirm</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="col-25">
+      <div class="container">
+        <h4>Cart
+          <span class="price" style="color:black">
+            <i class="fa fa-shopping-cart"></i>
+            <b></b>
+          </span>
+        </h4>
+        <!-- <p><a href="#">Product 1</a> <span class="price"></span></p>
+        <p><a href="#">Product 2</a> <span class="price"></span></p>
+        <p><a href="#">Product 3</a> <span class="price"></span></p> -->
+        <hr>
+        <label for="Confirm">Confirm Order</label>
+        <input id="myCheckbox" type="checkbox" value="checked" />
+        <p id="checkoutTotal" >Total <span class="price"  style="color:black"><b></b></span></p>
+      </div>
+    </div>
+  </div>
+
+ <!-- footer -->
+ <div class="footer row bg-dark container-fluid">
+  <div class="  col-xl-6 col-lg-6 col-md-6 ">
+      <ul class="my-3">
+        <li class="footerList"> <a href="landingPage.html" class="nav-link"> Home</a></li>
+        <li class="footerList"> <a href="javascript:void(0)" class="nav-link">About Us</a></li>
+        <li class="footerList"> <a href="Checkout.html" class="nav-link">Check Out</a></li>
+        <li class="footerList"> <a href="javascript:void(0)" class="nav-link">Contact Us</a></li>
+        <li class="footerList"> <a href="policies.html" class="nav-link">Policies</a></li>
+      </ul>
+  </div>
+
+  <span class="vl"></span>
+
+  <div class="  col-xl-6 col-lg-6 col-md-6 footerList2 my-2"> Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+      Accusantium, ipsa. Dicta accusamus aspernatur eligendi perferendis, minus eos laudantium? Facilis quam pa
+      riatuLorem ipsum dolor sit, amet consectetur adipisicing elit.
+      Accusantium, ipsa. Dicta accusamus aspernatur eligendi perferendis, minus eo
+      s laudantium? Facilis quam pa
+      riatuLorem ipsum dolor sit, amet consectetur adipisicing elit.
+      Accusantium, ipsa. Dicta accusamus aspernatur eligendi perferendis, minus eo
+      s laudantium? Facilis quam pa
+      riatu
+  </div>
+  <!-- <div style="height: 80px; background-color: black; width: 100%;"  ></div> -->
+
+
+
+</div>
+
+
+
+</div>
+</body>
+
+</html>
+
+<!-- 
+<script>
+  var clickOnPos = 0;
+  var clickOnNeg = 0;
+  function clickCounterAdd() {
+        if (typeof(Storage) !== "undefined") {
+          if (localStorage.clickcount >=0) {
+      
+           clickOnPos +=  localStorage.clickcount = Number(localStorage.clickcount);
+           if(localStorage.clickcount == 1)
+           {
+             document.getElementById("productdisplay").classList.add("divdisplay")
+             
+           }
+        
+           
+            document.getElementById("bill").innerHTML = "Quntity: "  + clickOnPos ;
+          
+            
+          } else {
+            localStorage.clickcount = 1;
+          }
+          document.getElementById("result").innerHTML = "You have clicked the button " + localStorage.clickcount + " time(s).";
+        }
+      }
+      
+      function clickCounterNeg() {
+        if (typeof(Storage) !== "undefined") {
+          if (localStorage.clickcount >0) {
+            
+             clickOnNeg = localStorage.clickcount = Number(localStorage.clickcount)-1;
+            
+            document.getElementById("bill").innerHTML = "Quntity: "  + clickOnNeg ;
+            
+            
+          } else {
+            localStorage.clickcount = 1;
+          }
+          document.getElementById("result").innerHTML = "You have clicked the button " + localStorage.clickcount + " time(s).";
+        }
+      }
+   
+      
+   
+  
+
+</script> -->

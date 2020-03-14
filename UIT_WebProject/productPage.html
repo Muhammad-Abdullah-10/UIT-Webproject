@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="navbar.css">
+  <link rel="stylesheet" href="product.css">
+  <!-- <link rel="stylesheet" href="exprementingnavbarhamonAboutprj.css"> -->
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <!-- Popper JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="jquery_ui/jquery-ui.css">
+  <link rel="stylesheet" href="jquery_ui/jquery-ui.structure.css">
+  <link rel="stylesheet" href="jquery_ui/jquery-ui.theme.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="alljs.js" async></script>
+
+  <title>Document</title>
+  <style>
+    .producting
+    {
+      display:none;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-sm  navbar-colors">
+    <a class="navbar-brand navbar-colors " href="#">Navbar</a>
+    <!-- the above is for logo -->
+    <!-- data toggle is used on how the button will react -->
+    <!-- data target = target any id we gave to it access that thing on functionality -->
+    <!-- aria control are for disable user  -->
+    <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse"
+      data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon custom-toggler "></span>
+    </button>
+
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item ">
+          <a class="nav-link navbar-colors" href="landingPage.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link navbar-colors" href="policies.html">Policies</a> </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle navbar-colors" href="#" id="navbarDropdown" role="button"
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Sign In
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item navbar-colors" href="singup.html">Sign in</a>
+            <a class="dropdown-item navbar-colors" href="productPage.html">Product Detail</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item navbar-colors" href="#">Something else here</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link  navbar-colors" href="Checkout.html" tabindex="-1">CheckOut</a>
+        </li>
+      </ul>
+      <form class="form-inline my-1 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn search-btn-color bg-white  mt-2 mb-1 my-sm-0 mx-auto " type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+
+  <section>
+    <div class="row container-fluid boxsizingProdcutDiv">
+      <div class=" col-xl-8 col-sm-12 col-md-12 col-lg-12 div-75-styling">
+        <h1 class="producth1 textAlingment">Product Page</h1>
+        <hr id="divider">
+        <h2 class="producth2  ">The Gold and Silver</h2>
+        <img src="images/clock1.jpg" class="imgproduct zoom" alt="">
+        <p class="producth2" style=" text-decoration:underline; font-size: 22px; text-align:center;">Details</p>
+        <p style="font-weight: bold; text-align: center;">This is the Gold Plated Casio with Silver Chain Carrying a weight of 200grams dile
+          only </p>
+      </div>
+
+      <div class="col-xl-4 8 col-sm-12 col-md-12 col-lg-12 div-25-styling ">
+        <h1 class="producth1 textAlingment">Supplier Details</h1>
+        <ul class="supplierUL">
+          <li> <label for="fname"><i class="fa fa-user"></i> Full Name : </label> Supplier XYZ</li>
+
+          <li>   <label for="email"><i class="fa fa-envelope"></i> Email : </label> Abcdefg@gmal.com</li>
+          <li><label for="address"><i class="fa fa-address-card-o"></i> Address : </label> UIT Samama </li>
+          <li><label for="city"><i class="fa fa-institution"></i> City :  </label> Karachi</li>
+          <li><label for="city"><i class=""></i> Website :  </label> <a href="javascript:void(0)">www.xyz.com</a> </li>
+          <li><label for="city"><i class=""></i> Number :  </label>  03xx-xxxxxxxx </li>
+          <i class=""></i>
+          <i class=""></i>
+        </ul>
+        
+        <div class=" container-fluid">
+          <h2>Chat Window</h2>
+          <p>Click on the button at the bottom of this page to open the chat form and Contact Your Supplier Today and 
+            for larger order
+            .</p>
+          
+          
+          
+          
+          <div class="chat-popup" id="myForm">
+            <form action="/action_page.php" class="form-container">
+              <h1>Chat</h1>
+          
+              <label for="msg"><b>Message</b></label>
+              <textarea placeholder="Type message.." name="msg" required></textarea>
+          
+              <button type="submit" class="btn">Send</button>
+              <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+            </form>
+          </div>
+
+        </div>
+      
+      </div>
+    </div>
+    
+    <div class="producting" id="product-row">
+      <div class="container-fluid " id="productincheckout">
+        <table id="cart" class="table table-hover table-condensed">
+          <thead>
+            <tr>
+              <th style="width:50%">Product</th>
+              <th style="width:10%">Price</th>
+              <th style="width:8%">Quantity</th>
+              <th style="width:22%" class="text-center">Subtotal</th>
+              <th style="width:10%"></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td data-th="Product">
+                <div class="row">
+                  <div class="col-sm-2 hidden-xs"><img src="http://placehold.it/100x100" alt="..." class="img-responsive" /></div>
+                  <div class="col-sm-10">
+                    <h4 class="nomargin">Product 1</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua.</p>
+                  </div>
+                </div>
+              </td>
+              <td data-th="Price">$5.11</td>
+              <td data-th="Quantity">
+                <input type="number"  class="form-control text-center quntityvalue" value="1">
+              </td>
+              <td data-th="Subtotal" class="text-center" id="subtotal" >$5.11</td>
+              <td class="actions row" data-th="" >
+                  <!-- <button class="btn btn-info row"><i class="fa fa-refresh"></i></button>
+                  <button class="btn btn-danger btn-sm"><i class="fa fa-trash-o"></i></button> -->
+              </td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr class="visible-xs">
+              <td class="text-center"><strong>Total $ 5.11</strong></td>
+            </tr>
+            <tr>
+              <td><a href="#" class="btn btn-warning"><i class="fa fa-angle-left"></i> Continue Shopping</a></td>
+              <td colspan="2" class="hidden-xs"></td>
+              <td class="hidden-xs text-center"><strong>Total $ 5.11</strong></td>
+              <td><a href="#" class="btn btn-success btn-block">Checkout <i class="fa fa-angle-right"></i></a></td>
+            </tr>
+          </tfoot>
+        </table>
+      </div>
+    
+    </div>
+    
+    <!-- <div class="row container-fluid ">
+      <div class=" col-xl-8 col-lg-8 col-md-12 col-sm-12 buttonmaring" >
+        <button class="btn  btn-dark mx-3 " onclick="clickCounterAdd(); AddProdcut();" id="btnPos">+</button>
+        <button class="btn  btn-dark "> <a href="Checkout.html"> Add To Cart </a></button>
+        <button class="btn  btn-dark mx-3 " onclick="clickCounterNeg(); RemoveProdcut();"id="btnNeg"> -- </button>
+
+        
+    <span>Your bill is </span> -->
+
+
+        <!-- <select id="select_Box" class="form-control bg-light  btn-outline-dark mx-5 my-2" style="width: 100px;" name="" id=""> 
+          <option value="1" class="bg-dark">1</option>
+          <option value="2"  class="bg-dark">2</option>
+          <option value="3"  class="bg-dark">3</option>
+          <option value="4"  class="bg-dark">4</option>
+        </select> -->
+        <!-- <button  onclick="submited()">Sumbit Order</button> -->
+        <!-- <br>
+        <label id="bill">Quntity : </span>
+      </div>
+    </div>
+    -->
+  </section>
+
+  <section class="bg-dark my-5   ">
+    <article class=" py-5 ">
+        <div class=" container-fluid text-center text-white">
+            <h3 class=" display-4">Want to Join</h3>
+            <p> SignUp and Buy Online</p>
+            <button class=" btn btn-warning " data-toggle="modal" data-target="#myModal">Join Now </button>
+        </div>
+        <!-- The Modal -->
+        <div class="modal fade" id="myModal">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title text-pr">Sign Up</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <div class="container">
+
+                            <form action="/action_page.php">
+                                <div class="form-group">
+                                    <label for="email">Email:</label>
+                                    <input type="email" class="form-control" id="email" placeholder="Enter email"
+                                        name="email">
+                                </div>
+                                <div class="form-group">
+                                    <label for="pwd">Password:</label>
+                                    <input type="password" class="form-control" id="pwd"
+                                        placeholder="Enter password" name="pswd">
+                                </div>
+                                <div class="form-group form-check">
+                                    <label class="form-check-label">
+                                        <input class="form-check-input" type="checkbox" name="remember"> Remember me
+                                    </label>
+                                </div>
+                                <button type="submit" class="btn btn-dark">Submit</button>
+                            </form>
+                        </div>
+
+                    </div>
+
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        </div>
+    </article>
+</section>
+
+  <!-- footer -->
+  <div class="footer row bg-dark " style="margin: 0 !important;">
+    <div class="  col-xl-6 col-lg-6 col-md-6 my-3 ">
+      <ul class="my-3">
+        <li class="footerList"> <a href="landingPage.html" class="nav-link"> Home</a></li>
+        <li class="footerList"> <a href="javascript:void(0)" class="nav-link">About Us</a></li>
+        <li class="footerList"> <a href="Checkout.html" class="nav-link">Check Out</a></li>
+        <li class="footerList"> <a href="javascript:void(0)" class="nav-link">Contact Us</a></li>
+        <li class="footerList"> <a href="policies.html" class="nav-link">Policies</a></li>
+      </ul>
+    </div>
+
+
+
+    <div class="  col-xl-6 col-lg-6 col-md-6 footerList2 py-5"> Lorem ipsum dolor sit, amet consectetur adipisicing
+      elit.
+      Accusantium, ipsa. Dicta accusamus aspernatur eligendi perferendis, minus eos laudantium? Facilis quam pa
+      riatuLorem ipsum dolor sit, amet consectetur adipisicing elit.
+      Accusantium, ipsa. Dicta accusamus aspernatur eligendi perferendis, minus eo
+      s laudantium? Facilis quam pa
+      riatuLorem ipsum dolor sit, amet consectetur adipisicing elit.
+      Accusantium, ipsa. Dicta accusamus aspernatur eligendi perferendis, minus eo
+      s laudantium? Facilis quam pa
+      riatu
+      <br>
+      <br>
+      <br>
+      <button class="open-button" onclick="openForm()">Chat</button>
+    </div>
+    <!-- <div style="height: 80px; background-color: black; width: 100%;"  ></div> -->
+
+
+
+  </div>
+
+  <div id="productdisplay">
+    
+  </div>
+</body>
+
+</html>
+
+<script src="jquery-3.4.1.js" type="text/javascript"></script>
+<script src="jquery_ui/jquery-ui.js" type="text/javascript"></script>
+<script>
+
+//  function submited(){
+   
+//   var select = document.getElementById("select_Box");
+//   var ine = document.getElementById("bill");
+//   var bill = 19 * (select.options[select.selectedIndex].value);
+//    ine.innerHTML ="Your Total Bill is" + bill + "$";
+  
+//  }
+ 
+  //chatbox script
+  function openForm() {
+    document.getElementById("myForm").style.display = "block";
+  }
+
+  function closeForm() {
+    document.getElementById("myForm").style.display = "none";
+  }
+  //chatbox script end
+
+ 
+// var pos = document.getElementById("btnPos");
+//        function Addclass()
+//       {
+    
+    
+//           let abc =  document.getElementById("productdisplay");
+//           abc.classList.add("divdisplay")
+   
+//     }
+</script>

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="product.css">
+    <!-- <link rel="stylesheet" href="exprementingnavbarhamonAboutprj.css"> -->
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="jquery_ui/jquery-ui.css">
+    <link rel="stylesheet" href="jquery_ui/jquery-ui.structure.css">
+    <link rel="stylesheet" href="jquery_ui/jquery-ui.theme.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="alljs.js"></script>
+    
+    <title>Document</title>
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm  navbar-colors">
+        <a class="navbar-brand navbar-colors " href="#">Navbar</a>
+        <!-- the above is for logo -->
+        <!-- data toggle is used on how the button will react -->
+        <!-- data target = target any id we gave to it access that thing on functionality -->
+        <!-- aria control are for disable user  -->
+        <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse"
+          data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon custom-toggler "></span>
+        </button>
+    
+    
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item ">
+              <a class="nav-link navbar-colors" href="landingPage.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link navbar-colors" href="policies.html">Policies</a> </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle navbar-colors" href="#" id="navbarDropdown" role="button"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Sign Up
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item navbar-colors" href="singup.html">Sign In</a>
+                <a class="dropdown-item navbar-colors" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item navbar-colors" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link  navbar-colors" href="Checkout.html" tabindex="-1">CheckOut</a>
+            </li>
+          </ul>
+          <form class="form-inline my-1 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn search-btn-color bg-white  mt-2 mb-1 my-sm-0 mx-auto " type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+  <!-- img with hover -->
+  <!-- 
+      <div class=" row container-fluid">
+          <div class="col-lg-6 col-xl-6 col-md-12 col-md-12 py-5 spacingSides  ">
+            <h2> Casino Silver</h2>
+            <p style="margin-bottom: 150px;"> For Only 19$</p>
+              <img src="images/adult-box-case-collection-380782.jpg" class="spacingSides zoom" alt="">
+             <div class="row container-fluid m-5">
+              <button class="btn  btn-dark " onclick="clickCounter();">+</button>      
+              <button class="btn  btn-dark " >Add To Cart</button>  
+              <button class="btn  btn-dark  " onclick="clickCounterNeg()" >-</button>    
+            </div>
+            <div class=" col-sm-12 col-md-12 col-xl-4 col-lg-6 my-5">
+              <label for="bill">Your Bill is</label>
+              <span id="bill"> </span>
+          </div>
+          </div>
+
+          
+      </div> -->
+  <!-- FAQ Accordian -->
+  <div class=" conatiner-fluid">
+        <h2>FAQ</h2>
+        <div id="panel">
+            <h3> <b>The Know About </b></h3>
+            <p>It is a long established fact that a reader will be distracted by the readable
+                content of a page when looking at its layout.
+                The point of using Lorem Ipsum is that it has a more-or-less normal distribution of
+                letters, as opposed to us
+            </p>
+    
+            <h3> <b> The Details</b> </h3>
+            <p>It is a long established fact that a reader will be distracted by the readable
+                content of a page when looking at its layout.
+                The point of using Lorem Ipsum is that it has a more-or-less normal distribution of
+                letters, as opposed to us
+                The point of using Lorem Ipsum is that it has a more-or-less normal distribution of
+                letters, as opposed to us
+                It is a long established fact that a reader will be distracted by the readable
+                content of a page when looking at its layout.
+            </p>
+    
+            <h3> <b>TheAchivement </b></h3>
+            <p>It is a long established fact that a reader will be distracted by the readable
+                content of a page when looking at its layout.
+                
+            </p>
+            
+    
+    
+        </div>
+    
+      </div>
+      <!-- footer -->
+  <div class="footer row bg-dark " style="margin: 0 !important;">
+    <div class="  col-xl-6 col-lg-6 col-md-6 my-3 ">
+      <ul class="my-3">
+        <li class="footerList"> <a href="landingPage.html" class="nav-link"> Home</a></li>
+        <li class="footerList"> <a href="javascript:void(0)" class="nav-link">About Us</a></li>
+        <li class="footerList"> <a href="Checkout.html" class="nav-link">Check Out</a></li>
+        <li class="footerList"> <a href="javascript:void(0)" class="nav-link">Contact Us</a></li>
+        <li class="footerList"> <a href="policies.html" class="nav-link">Policies</a></li>
+      </ul>
+    </div>
+
+
+
+    <div class="  col-xl-6 col-lg-6 col-md-6 footerList2 py-5 my-5"> Lorem ipsum dolor sit, amet consectetur adipisicing
+      elit.
+      Accusantium, ipsa. Dicta accusamus aspernatur eligendi perferendis, minus eos laudantium? Facilis quam pa
+      riatuLorem ipsum dolor sit, amet consectetur adipisicing elit.
+      Accusantium, ipsa. Dicta accusamus aspernatur eligendi perferendis, minus eo
+      s laudantium? Facilis quam pa
+      riatuLorem ipsum dolor sit, amet consectetur adipisicing elit.
+      Accusantium, ipsa. Dicta accusamus aspernatur eligendi perferendis, minus eo
+      s laudantium? Facilis quam pa
+      riatu
+      <br>
+      <br>
+      <br>
+      <button class="open-button" onclick="openForm()">Chat</button>
+    </div>
+    <!-- <div style="height: 80px; background-color: black; width: 100%;"  ></div> -->
+
+
+
+  </div>
+
+
+
+</body>
+</html>
+<script>
+  //chatbox script
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+//chatbox script end
+</script>
